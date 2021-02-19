@@ -1,0 +1,168 @@
+body {
+	margin: 0;
+}
+
+
+
+.wrapper {
+	margin: auto;
+	width: 70%;
+}
+
+
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 0 100px 0;
+}
+
+
+
+.logo {
+	position: relative;
+	padding: 40px 0;
+	padding-left: 44px;
+	font: 700 24px/32px pt_serifbold, arial, helvetica, sans-serif;
+}
+
+
+
+.logo__circle {
+	position: absolute;
+	height: 28px;
+	width: 28px;
+	border-radius: 50%;
+	opacity: .7;
+}
+
+
+.logo__circle_color_dark-blue {
+	left: 0;
+	top: 50%;
+	transform: translateY(-55%);
+	background: #0056EC;
+}
+
+
+
+.logo__circle_color_blue{
+	left: 8px;
+	top: 42%;
+	background: #C8DBFB;
+}
+
+
+
+.menu {
+	display: flex;
+	align-items: center;
+}
+
+
+
+.menu__item {
+	position: relative;
+	margin-right: 26px;
+	font: 500 14px/16px robotomedium, arial, helvetica, sans-serif;
+	color: #000;
+	text-decoration: none;
+	transition: opacity .5s;
+}
+
+
+
+.menu__item:last-child {
+	margin-right: 0;
+}
+
+
+
+.menu__item:hover {
+	opacity: .5;
+}
+
+
+.menu__item:after {
+	display: block;
+	content: '';
+	position: absolute;
+	left: 0;
+	width: 0;
+	height: 2px;
+	background: #0056EC;
+	opacity: 0;
+	transition: opacity .5s, width .5s;
+}
+
+
+.menu__item_active:after {
+	display: block;
+	content: '';
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: #0056EC;
+}
+
+
+.menu__item:hover:after {
+	display: block;
+	content: '';
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: #0056EC;
+}
+
+
+.menu__item:hover:after, .menu__item_active:after {
+	opacity: 1;
+	width: 100%;
+}
+
+
+.section {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+.image-content {
+	width: 514px;
+	height: 439px;
+}
+
+
+
+.main-content__title {
+	margin: 0 0 40px 0;
+	width: 434px;
+	height: 195px;
+	font: 700 50px/66px pt_serifbold, arial, helvetica, sans-serif;
+}
+
+
+
+.main-content__description {
+	margin: 0 0 41px 0;
+	width: 367px;
+	height: 43px;
+	font: 500 18px/21px robotomedium, arial, helvetica, sans-serif;
+}
+
+
+
+.main-content__button {
+	width: 209px;
+	height: 44px;
+	background: #0056EC;
+	border-radius: 4px;
+	color: #FFFFFF;
+	border: none;
+	font: 500 14px/16px robotoregular, arial, helvetica, sans-serif;
+}
+
