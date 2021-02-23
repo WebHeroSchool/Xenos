@@ -6,7 +6,7 @@ body {
 
 .wrapper {
 	margin: auto;
-	width: 70%;
+	width: 70%
 }
 
 
@@ -14,14 +14,13 @@ body {
 .header {
 	display: flex;
 	justify-content: space-between;
-	margin: 0 0 100px 0;
+	margin: 40px 0 123px 0;
 }
 
 
 
 .logo {
 	position: relative;
-	padding: 40px 0;
 	padding-left: 44px;
 	font: 700 24px/32px pt_serifbold, arial, helvetica, sans-serif;
 }
@@ -48,7 +47,7 @@ body {
 
 .logo__circle_color_blue{
 	left: 8px;
-	top: 42%;
+	top: 25%;
 	background: #C8DBFB;
 }
 
@@ -118,51 +117,54 @@ body {
 }
 
 
+
 .menu__item:hover:after, .menu__item_active:after {
 	opacity: 1;
 	width: 100%;
 }
 
 
-.section {
-	display: flex;
-	justify-content: space-between;
+
+.main {
+	padding: 17px 56% 100px 0;
+	background: top right no-repeat url('image/frame.svg');
 }
 
 
 
-.image-content {
-	width: 514px;
-	height: 439px;
-}
-
-
-
-.main-content__title {
+.main__title {
 	margin: 0 0 40px 0;
-	width: 434px;
-	height: 195px;
 	font: 700 50px/66px pt_serifbold, arial, helvetica, sans-serif;
 }
 
 
+.main__title-text_excretion {
+	background: 0% 75%/100% 80% no-repeat url(image/back.svg);
+}
 
-.main-content__description {
+
+.main__description {
 	margin: 0 0 41px 0;
-	width: 367px;
-	height: 43px;
 	font: 500 18px/21px robotomedium, arial, helvetica, sans-serif;
 }
 
 
 
-.main-content__button {
-	width: 209px;
-	height: 44px;
+.main__button {
+	display: inline-block;
+	padding: 14px 16px;
 	background: #0056EC;
 	border-radius: 4px;
-	color: #FFFFFF;
+	color: #FFF;
 	border: none;
 	font: 500 14px/16px robotoregular, arial, helvetica, sans-serif;
+	text-decoration: none;
+	transition: .5s;
+}
+
+
+
+.main__button:hover {
+	opacity: .5;
 }
 
