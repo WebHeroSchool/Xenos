@@ -6,7 +6,7 @@ body {
 
 .wrapper {
 	margin: auto;
-	width: 70%
+	width: 68%;
 }
 
 
@@ -56,6 +56,7 @@ body {
 .menu {
 	display: flex;
 	align-items: center;
+	transform: translateX(-1%) translateY(12%);
 }
 
 
@@ -126,14 +127,14 @@ body {
 
 
 .main {
-	padding: 17px 56% 100px 0;
-	background: top right no-repeat url('image/frame.svg');
+	padding: 17px 52% 100px 0;
+	background: 100% 0 no-repeat url('image/frame.svg');
 }
 
 
 
 .main__title {
-	margin: 0 0 40px 0;
+	margin: 0 0 38px 0;
 	font: 700 50px/66px pt_serifbold, arial, helvetica, sans-serif;
 }
 
@@ -145,6 +146,7 @@ body {
 
 .main__description {
 	margin: 0 0 41px 0;
+	width: 84%;
 	font: 500 18px/21px robotomedium, arial, helvetica, sans-serif;
 }
 
@@ -152,7 +154,7 @@ body {
 
 .main__button {
 	display: inline-block;
-	padding: 14px 16px;
+	padding: 15px 28px 14px 16px;
 	background: #0056EC;
 	border-radius: 4px;
 	color: #FFF;
@@ -167,4 +169,3 @@ body {
 .main__button:hover {
 	opacity: .5;
 }
-
