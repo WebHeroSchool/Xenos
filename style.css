@@ -126,8 +126,8 @@ body {
 
 
 .main {
-	padding: 17px 52% 100px 0;
-	background: 100% 0 no-repeat url('image/frame.svg');
+	padding: 17px 52% 193px 0;
+	background: 100% 0/55% no-repeat url('image/frame.svg');
 }
 
 
@@ -197,7 +197,7 @@ body {
 
 	.main {
 		padding: 73px 60% 300px 0;
-		background: 100% 0 no-repeat url('image/Frame1920.svg');
+		background: 99% 0/50% no-repeat url(image/frame.svg);
 	}
 
 	.main__title {
