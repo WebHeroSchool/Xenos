@@ -3,10 +3,9 @@ body {
 }
 
 
-
 .wrapper {
 	margin: auto;
-	width: 70%;
+	width: 91%;
 }
 
 
@@ -14,14 +13,13 @@ body {
 .header {
 	display: flex;
 	justify-content: space-between;
-	margin: 0 0 100px 0;
+	margin: 40px 0 123px 0;
 }
 
 
 
 .logo {
 	position: relative;
-	padding: 40px 0;
 	padding-left: 44px;
 	font: 700 24px/32px pt_serifbold, arial, helvetica, sans-serif;
 }
@@ -48,7 +46,7 @@ body {
 
 .logo__circle_color_blue{
 	left: 8px;
-	top: 42%;
+	top: 25%;
 	background: #C8DBFB;
 }
 
@@ -57,6 +55,7 @@ body {
 .menu {
 	display: flex;
 	align-items: center;
+	transform: translateX(-1%) translateY(12%);
 }
 
 
@@ -118,51 +117,104 @@ body {
 }
 
 
+
 .menu__item:hover:after, .menu__item_active:after {
 	opacity: 1;
 	width: 100%;
 }
 
 
-.section {
-	display: flex;
-	justify-content: space-between;
+
+.main {
+	padding: 17px 52% 193px 0;
+	background: 100% 0/55% no-repeat url('image/frame.svg');
 }
 
 
 
-.image-content {
-	width: 514px;
-	height: 439px;
-}
-
-
-
-.main-content__title {
-	margin: 0 0 40px 0;
+.main__title {
+	margin: 0 0 38px 0;
 	width: 434px;
-	height: 195px;
 	font: 700 50px/66px pt_serifbold, arial, helvetica, sans-serif;
 }
 
 
+.main__title-text_excretion {
+	background: 0% 75%/100% 80% no-repeat url(image/back.svg);
+}
 
-.main-content__description {
+
+.main__description {
 	margin: 0 0 41px 0;
 	width: 367px;
-	height: 43px;
 	font: 500 18px/21px robotomedium, arial, helvetica, sans-serif;
 }
 
 
 
-.main-content__button {
-	width: 209px;
-	height: 44px;
+.main__button {
+	display: inline-block;
+	padding: 15px 28px 14px 16px;
 	background: #0056EC;
 	border-radius: 4px;
-	color: #FFFFFF;
+	color: #FFF;
 	border: none;
 	font: 500 14px/16px robotoregular, arial, helvetica, sans-serif;
+	text-decoration: none;
+	transition: .5s;
 }
 
+
+
+.main__button:hover {
+	opacity: .5;
+}
+
+
+@media (min-width: 1366px) {
+	.wrapper {
+		width: 68%;
+	}
+}
+
+@media (min-width: 1920px) {
+	
+	.wrapper {
+		width: 79.6%;
+	}
+
+	.header {
+		margin: 39px 0 173px 0;
+	}
+
+	.menu {
+		transform: translateX(-2%) translateY(12%);
+	}
+
+	.menu__item {
+		font: 500 18px/21px robotomedium, arial, helvetica, sans-serif;
+	}
+
+	.main {
+		padding: 73px 60% 300px 0;
+		background: 99% 0 no-repeat url(image/frame.svg);
+	}
+
+	.main__title {
+		margin: 0 0 34px 0;
+		width: 567px;
+		font: 700 66px/87px pt_serifbold, arial, helvetica, sans-serif;
+	}
+
+	.main__description {
+		margin: 0 0 42px 0;
+		width: 455px;
+		font: 400 22px/26px robotomedium, arial, helvetica, sans-serif;
+	}
+
+	.main__button {
+		padding: 18px 37px 19px 21px;
+		font: 500 18px/21px robotoregular, arial, helvetica, sans-serif;
+	}
+
+}
