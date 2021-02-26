@@ -197,7 +197,7 @@ body {
 
 	.main {
 		padding: 73px 60% 300px 0;
-		background: 99% 0/50% no-repeat url(image/frame.svg);
+		background: 99% 0 no-repeat url(image/frame.svg);
 	}
 
 	.main__title {
@@ -211,8 +211,6 @@ body {
 		width: 455px;
 		font: 400 22px/26px robotomedium, arial, helvetica, sans-serif;
 	}
-
-
 
 	.main__button {
 		padding: 18px 37px 19px 21px;
